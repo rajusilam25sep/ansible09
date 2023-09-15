@@ -13,7 +13,7 @@
       name: "{{mywebpackonubuntu}}"
       state: started
     when: ansible_os_family== "Debian"
-  - name: in this tasks, i want to install httpd webservers on RedHat
+  - name: in this tasks , i want to install httpd webservers on RedHat
     dnf:
       name: "{{mywebpackonRedHhat}}"
       state: present
