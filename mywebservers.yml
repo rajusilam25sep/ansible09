@@ -15,7 +15,7 @@
     when: ansible_os_family== "Debian"
   - name: in this tasks, i want to install httpd webservers on RedHat
     dnf:
-      name: "{mywebpackonRedHhat{}}"
+      name: "{{mywebpackonRedHhat}}"
       state: present
     when: ansible_os_family== "RedHat"
   - name: in this tasks, i want to start webservers on RedHat
