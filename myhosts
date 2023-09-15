@@ -15,3 +15,13 @@
 
 [myRedHatservers]
 10.0.0.6
+
+
+
+
+
+
+[mywebservers:vars]
+var01= value
+mywebpackonubuntu= apache2222
+mywebpackonredhat= httpd
